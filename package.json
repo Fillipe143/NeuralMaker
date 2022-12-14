@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules ./src/index.ts"
+    "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules ./src/index.ts",
+    "test": "tsnd --transpile-only --respawn --ignore-watch node_modules ./test/index.ts"
   },
   "repository": {
     "type": "git",
