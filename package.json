@@ -1,0 +1,23 @@
+{
+  "name": "@fillipe143/neural-maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fillipe143/NeuralMaker.git"
+  },
+  "author": "Fillipe143",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fillipe143/NeuralMaker/issues"
+  },
+  "homepage": "https://github.com/Fillipe143/NeuralMaker#readme",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
